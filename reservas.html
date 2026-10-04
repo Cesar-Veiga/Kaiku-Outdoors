@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="cabecera"><a href="index.html">Inicio</a> | <a href="productos.html">Información</a> | <a href="reservas.html">Reservas</a> | <a href="formulario.html">Registrarse</a> |<a href="Formularioini.html">Iniciar sesión</a></p>
+    <br><br>
+    <h1><img src="img/Logo.png" alt="Logo de Kaiku Outdoors" class="logo"> <a class="inicio" href="index.html">Kaiku Outdoors</a> <img src="img/Logo.png" alt="Logo de Kaiku Outdoors" class="logo"></h1>
+    <h2>Reserva de Material</h2>
+
+    <!-- Tipos de productos: 
+     <li>Verano <ul>
+            <li>Calzado</li>
+            <li>Botonería y textíl</li>
+            <li>Bastones trecking</li>
+            <li>Mochilas</li>
+            <li>Cantimplora</li>
+            <li>Gafas de sol</li>
+        </ul><hr></li>
+        <li>Invierno <ul>
+            <li>Pala de nieve</li>
+            <li>Raquetas de nieve</li>
+            <li>Ropa térmica</li>
+            <li>Guantes</li>
+            <li>Crampones</li>
+            <li>Piolet</li>
+            <li>Sonda</li>
+        </ul><hr></li>
+        <li>Camping <ul>
+            <li>Tienda de campaña</li>
+            <li>Saco de dormir</li>
+            <li>Colchoneta</li>
+            <li>Linterna</li>
+            <li>Esterilla</li>
+            <li>Hornillo</li>-->
+
+    <form>
+        <fieldset>
+            <legend>Tipo de Material</legend>
+            <select name="Tipo">
+                <option value="Verano">Verano</option>
+                <option value="Invierno">Invierno</option>
+                <option value="Camping">Camping</option>
+                <option value="Mezcla">Otros</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Materiales</legend>
+            <!--Verano-->
+            Botas de Monte: <input type="number" placeholder="Añade la cantidad"><br>
+            Pantalones de Monte: <input type="number" placeholder="Añade la cantidad"><br>
+            Sudadera: <input type="number" placeholder="Añade la cantidad"><br>
+            Mochila 20L: <input type="number" placeholder="Añade la cantidad"><br>
+            Mochila 50L: <input type="number" placeholder="Añade la cantidad"><br>
+            Mochila 75L: <input type="number" placeholder="Añade la cantidad"><br>
+            Cantimplora 0,5L: <input type="number" placeholder="Añade la cantidad"><br>
+            Cantimplora 1L: <input type="number" placeholder="Añade la cantidad"><br>            
+            Gafas de sol: <input type="number" placeholder="Añade la cantidad"><hr>
+            <!--Invierno-->
+            Palas de Nieve: <input type="number" placeholder="Añade la cantidad"><br>
+            Raquetas de Nieve: <input type="number" placeholder="Añade la cantidad"><br>
+            Ropa Térmica: <input type="number" placeholder="Añade la cantidad"><br>
+            Guantes: <input type="number" placeholder="Añade la cantidad"><br>
+            Chamarra: <input type="number" placeholder="Añade la cantidad"><br>
+            Crampones: <input type="number" placeholder="Añade la cantidad"><br>
+            Piolet: <input type="number" placeholder="Añade la cantidad"><br>
+            Sonda: <input type="number" placeholder="Añade la cantidad"><br>
+            Tabla Snow: <input type="number" placeholder="Añade la cantidad"><br>
+            Esquís: <input type="number" placeholder="Añade la cantidad"><hr>
+            <!--Camping-->
+            Tiendas de Campaña: <input type="number" placeholder="Añade la cantidad"><br>
+            Sacos de Dormir: <input type="number" placeholder="Añade la cantidad"><br>
+            Colchonetas: <input type="number" placeholder="Añade la cantidad"><br>
+            Linternas: <input type="number" placeholder="Añade la cantidad"><br>
+            Esterillas: <input type="number" placeholder="Añade la cantidad"><br>
+            Hornillos: <input type="number" placeholder="Añade la cantidad"><br>
+            Bombonas: <input type="number" placeholder="Añade la cantidad"><br>
+            Mazos: <input type="number" placeholder="Añade la cantidad"><br><br>
+        </fieldset>
+
+        <button type="submit" formaction="index.html">Cancelar</button>
+        <button type="submit" formaction="index.html">Comprar</button>
+    </form>
+</body>
+</html>

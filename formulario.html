@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="cabecera"><a href="index.html">Inicio</a> | <a href="productos.html">Información</a> | <a href="reservas.html">Reservas</a> | <a href="formulario.html">Registrarse</a> |<a href="Formularioini.html">Iniciar sesión</a></p>
+    <br><br>
+    <h1><img src="img/Logo.png" alt="Logo de Kaiku Outdoors" class="logo"> <a class="inicio" href="index.html">Kaiku Outdoors</a> <img src="img/Logo.png" alt="Logo de Kaiku Outdoors" class="logo"></h1>
+    <h2>Formulario de registro</h2>
+    <form>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        Nombre: <input type="text" required> 
+        Apellidos: <input type="text" required name="apellidos">
+        Edad: <select name="edad">
+            <option value="Jubilado">Mayor de 65</option>
+            <option value="Adulto" selected>Mayor de 18</option>
+            <option value="Menor">Menor de 18</option>
+        </select>
+        </fieldset>
+    <fieldset>
+        <legend>Datos de Identificación</legend>
+        DNI: <input type="text" required name="DNI">
+        Email: <input type="email" required name="email">
+        Número: <input type="tel" required name="Telefono">
+
+    </fieldset>
+    <button type="submit" formaction="index.html" formnovalidate>Cancelar</button>
+    <button type="submit" formaction="index.html">Registrarte</button>
+    </form>
+</body>
+</html>
