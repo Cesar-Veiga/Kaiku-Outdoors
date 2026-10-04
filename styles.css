@@ -94,6 +94,10 @@ th {
     width: 100px;
 }
 
+.normal {
+    color: black;
+}
+
 #indice {
     margin-left: 50px;
 }
